@@ -1,6 +1,6 @@
 # NYC Graffiti
 
-A simple project displaying graffiti in NYC. Users can view the map, upload images for each marker and add new data points to the map.
+A simple project displaying graffiti in NYC. Users can view map, upload images for each marker and add new data points to the map.
 
 ## Technologies
 
@@ -8,7 +8,7 @@ This project was made using React Map GL (Mapbox), Supabase (PostgreSQL), React,
 
 ## How to use
 
-View deployed project at: https://nyc-graffiti.vercel.app/
+View deployed version at: https://nyc-graffiti-hazel.vercel.app
 
 # Sources
 
