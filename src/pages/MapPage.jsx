@@ -82,8 +82,8 @@ const MapPage = () => {
 
   return (
     <>
-    { loading || isLoading && <Loading /> }
-    { error || graffitiError && <div className="error-screen">Error: { error ? error.message : graffitiError } </div> }
+    { (loading || isLoading) && <Loading /> }
+    { (error || graffitiError) && <div className="error-screen">Error: { error ? error.message : graffitiError.message } </div> }
     <Map
       mapboxAccessToken={import.meta.env.VITE_MAPBOX_ACCESS_TOKEN}
       initialViewState={{
